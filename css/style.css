@@ -60,6 +60,32 @@ body {
   border-bottom: 1px solid grey;
   margin-left: -20px;
 }
+#frameWrap {
+    position:relative;
+    height: 360px;
+    width: 100%;
+    border: 1px solid #777777;
+    box-shadow:0px 0px 10px #777777;
+}
+
+#iframe1 {
+    height: 360px;
+    width: 100%;
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+#loader1 {
+    position:absolute;
+    left:40%;
+    top:35%;
+    border-radius:20px;
+    padding:25px;
+    border:1px solid #777777;
+    background:#ffffff;
+    box-shadow:0px 0px 10px #777777;
+}
 .user li ul li:hover i
 {
 

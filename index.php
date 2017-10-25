@@ -100,7 +100,17 @@
     </div>
 
     <div class="content">
-      utf 8 test çöğşŞİ
+      <div id="frameWrap">
+        <img id="loader1" src="loading.gif" style="" alt="loading gif"/>
+        <iframe id="iframe1" src="progress.php" ></iframe>
+        </div>
+        <script>
+        $(document).ready(function () {
+            $('#iframe1').on('load', function () {
+                $('#loader1').hide();
+            });
+        });
+        </script>
     <div>
     <div class="sidebar">
       sidebar

@@ -17,7 +17,7 @@ $(function() {
   $('.user > li').click(function(e) {
     e.stopPropagation();
     var $el = $('ul',this);
-  
+
     $el.stop(true, true).toggle(100);
   });
   $('.user > li > ul').click(function(e) {
@@ -28,3 +28,9 @@ $(function() {
     $('.user > li > ul').slideUp(0);
   });
 });
+
+$(document).ready(function () {
+        $('#iframe1').on('load', function () {
+            $('#loadingMessage').hide();
+        });
+    });
