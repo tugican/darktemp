@@ -28,9 +28,11 @@ $(function() {
     $('.user > li > ul').slideUp(0);
   });
 });
-
 $(document).ready(function () {
-        $('#iframe1').on('load', function () {
-            $('#loadingMessage').hide();
-        });
+    $('#iframe1').on('load', function () {
+        $('#loader1').hide();
     });
+});
+$('#iframe2').on('load', function () {
+    $('#loader2').hide();
+});

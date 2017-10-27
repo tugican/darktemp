@@ -7,6 +7,7 @@ body {
   font-family: 'Quicksand', sans-serif;
   font-size:13px;
   background: #efefef;
+  overflow-x: hidden;
 }
 .avatar
 {
@@ -50,6 +51,8 @@ body {
   background: #2a2d35;
   right: 50px;
   border:1px solid grey;
+  margin-right: -5px;
+  z-index: 9;
 
 }
 .user li ul li
@@ -66,6 +69,9 @@ body {
     width: 100%;
     border: 1px solid #777777;
     box-shadow:0px 0px 10px #777777;
+    border-radius: 4px;
+    overflow: hidden;
+
 }
 
 #iframe1 {
@@ -74,6 +80,7 @@ body {
     margin:0;
     padding:0;
     border:0;
+
 }
 
 #loader1 {
@@ -167,6 +174,7 @@ color:white;
   width: 250px;
   background: white;
   color: black;
+  z-index: 9;
 
 }
 .topmenu ul li ul li
@@ -209,13 +217,19 @@ color:white;
   text-decoration: none;
   padding:20px;
 }
-
+.entry
+{
+  width: :100%;
+  margin-left: 50px;
+  margin-right: 50px;
+}
 .content
 {
   float: left;
-  padding-left:50px;
-  padding-right: 50px;
-  width: 94%;
+  width:100%;
+
+  position:relative;
+  margin-right:50px;
   margin: 20px auto;
   border-radius: 4px;
   overflow: hidden;

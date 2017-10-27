@@ -27,7 +27,7 @@
         <ul>
           <li>
             <a href="#">
-              File
+              Menu
             </a>
             <ul>
               <li>Open</li>
@@ -37,13 +37,13 @@
 
           </li>
           <li>
-            <a href="#">Edit</a>
+            <a href="#">Services</a>
             <ul>
               <li>2</li>
             </ul>
           </li>
           <li>
-            <a href="#">View</a>
+            <a href="#">History</a>
           </li>
           <li>
             <a href="#">Settings</a>
@@ -59,17 +59,17 @@
               Current project>
               <i class="fa fa-caret-down" aria-hidden="true"></i>
 
-              data aktarım
+              home api
             </a>
           </li>
           <li>
-            <a href="#">Edit</a>
+            <a href="#">Web Service</a>
           </li>
           <li>
-            <a href="#">View</a>
+            <a href="#">Formats</a>
           </li>
           <li>
-            <a href="#">Settings</a>
+            <a href="#">Project</a>
           </li>
         </ul>
         <ul class="user">
@@ -100,23 +100,29 @@
     </div>
 
     <div class="content">
+
+    <!--
       <div id="frameWrap">
         <img id="loader1" src="loading.gif" style="" alt="loading gif"/>
         <iframe id="iframe1" src="progress.php" ></iframe>
+
         </div>
-        <script>
-        $(document).ready(function () {
-            $('#iframe1').on('load', function () {
-                $('#loader1').hide();
-            });
-        });
-        </script>
+      -->
+        <div class="entry">
+          sap
+          <div class="sapent" style="margin-top:20px;margin-bottom:20px;background:#dbdbdb;padding:20px;border-radius:8px;position:relative;">
+            xml document
+          </div>
+
+        </div>
+
+
     <div>
     <div class="sidebar">
-      sidebar
+
     </div>
     <div class="footer">
-      footer
+      
     </div>
   </body>
 </html>
